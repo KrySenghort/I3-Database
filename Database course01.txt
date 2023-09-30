@@ -1,0 +1,141 @@
+=========================================================================== Part 01 ===================================================================================
+==> Learning Objective:
+	- Describe the need for DBMS
+	- Explain pros and cons of different DBMS
+	- Understand and explain the Entities and Attributes
+	- Understand and explain the Relationship and Cardinalities
+	- Draw Entity Relationship Diagram(ERD)
+	- Draw Entity Relationship Attribute Diagram
+	- Convert Diagram into Database
+	- Write Query to input or take output data from Database
+
+==> Course Outcome: after completing the course, you will be able to 
+	- ask questions to get information(requirements) that you need to design database system.
+	- Identify Entities, Relationships, Relations and Keys based on the requirement you get. 
+	- Draw diagrams to represent your understanding about the requirement.
+	- Design a good DBMS.
+=======================================================================================================================================================================
+==> Chapter 01 Content: 
+	+ Data, Information, Knowledge and Intelligence.
+	+ Solution for Data Management.
+	+ Data Store in Database Management System.
+========================================
+1. Database is an organized collection of structured information or data, typically stored electronically in a computer system.
+========================================
+2. Why we need to use database ?
+==> Because when data become big data we cannot control or manage appropriately, so we need database to organize data in order sequentially and improve to accurate data. After bigdata has organized then we can use any model to make decission and data visualization or data analytics.
+=========================================
+3. Before, we accurate data we need to study four steps such following : 
+- step1 : data
+- step2 : information of data
+- step3 : knowledge of data
+- step4 : decission and data analytics
+================================================================
+4. Solution for Data Management:
+File system
+	- a collection of individual file accessed by programming application.
+	So we cannot open it in different programming applications. eg: file excel: we cannot open in word or power point 
+
+Limitation:
+	- Separated and isolated data.
+	- Data duplication(over)
+	- Application program dependencies.
+	- Incompatible files
+	- Lack of Data Sharing : difficult to share or send to anyone.
+
+Database:
+	- organize data thruough entities, attributes and relationship.
+	- a program or a collection of progarm through which users interact with a database.
+
+Popular DBMS:
+	- Microsoft Access
+	- MySQL
+	- PostgreSQL
+	- MongoDB(NoSQL)
+==================================================================
+Advantage of DBMS:
+	- Getting more information from the same amount of data.
+	- Sharing data.
+	- Balancing conflicting requirements.()
+	- Controlling redundancy.()
+	- Facilitating consistency.
+	- Referential integrity.
+	- Expanding security.
+	- Increasing productivity.
+	- Providing data independence.
+
+Disadvantage of DBMS:
+	- Increased complexity
+	- The greater impact of failure
+	- More difficult recovery
+	- Large file size
+
+When not DBMS?
+	- The database is small with a simple structure.(more easy)
+	- Applications are simple, special purpose and relatively static.(static not dynamic size so not neccessary)
+	- Applications have real-time requirements.(It always change data)
+	- Multi-user access to data is not required.(Sharing is not neccessary)
+
+A Database contains:
+	- User data
+	- Metadata
+	- Indexes
+	- Application Metadata
+
+User Data:
+	- Data users work directly by entering, updating and viewing
+	- For our purposes, data will be generally stored in tables with some relationship between tables.
+	- Each table has one or more columns. A set of columns forms a database record.
+
+Meta Data:
+	- Data about data
+	- Data that describe how user data are stored in terms of the table name, column name, data type, length, primary keys, etc....
+	- Metadata are typically stored in system table or system catalogue and are typically directly accessible by the DBMS or by the system administrator.
+
+Application Metadata:
+	- Many DBMS have storage facilities for forms, reports, queries and other application 
+==========================
+Index:
+	- In keeping with our desire to provide users with several different views of data, indexes oftter an alternative means of accessing user data. 
+	  Sorting and Searching
+	- Indexes allow the database to access a record without having to search through the entire table.
+	- Updating data requires an extra step: The index must also be updated.
+	- 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
