@@ -1,6 +1,0 @@
-ID,FirstName, LastName, Department, DOB
-1,John,Smit,Computer Science,1990-01-01
-2,John,Doe,Mathematics,1990-01-01
-3,Peter,Jones,Computer Science,1990-02-02
-4,Mary,Johnson,Biology,1990-03-03
-5,David,Brown,Chemistry,1990-04-04
