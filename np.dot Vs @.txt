@@ -1,0 +1,16 @@
+Both `np.dot(a, b)` and `a @ b` perform matrix multiplication in NumPy, but they have different syntaxes and use cases.
+
+1. `np.dot(a, b)`:
+   - `np.dot(a, b)` is a NumPy function that computes the dot product of two arrays.
+   - It can be used to perform matrix multiplication for 2D arrays, or dot product for 1D arrays.
+   - It is a more general function that can handle different types of input arrays, such as matrices, vectors, and scalars.
+   - It can also be used for other algebraic operations, such as inner products, outer products, and more.
+   - For matrix multiplication, the number of columns in the first matrix (`a`) must be equal to the number of rows in the second matrix (`b`).
+
+2. `a @ b`:
+   - `@` is the matrix multiplication operator introduced in Python 3.5.
+   - It provides a more convenient and readable syntax for matrix multiplication.
+   - It is specifically designed for matrix multiplication between 2D arrays.
+   - The number of columns in the first matrix (`a`) must be equal to the number of rows in the second matrix (`b`).
+
+In terms of functionality, both `np.dot(a, b)` and `a @ b` can perform matrix multiplication, but `a @ b` is more concise and readable when working with 2D arrays. However, `np.dot(a, b)` offers more flexibility and can handle a wider range of input arrays and algebraic operations.
